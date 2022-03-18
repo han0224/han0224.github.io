@@ -94,9 +94,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-46RDF17YF9"
     anonymize_ip         : # true, false (default)
 
 
@@ -105,7 +105,7 @@ author:
   name             : "YUN SEO"
   avatar           : "/assets/images/log.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "기록하는 습관!"
-  location         : "Somewhere"
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
