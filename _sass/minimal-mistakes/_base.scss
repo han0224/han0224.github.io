@@ -70,7 +70,8 @@ p {
 u,
 ins {
   text-decoration: none;
-  border-bottom: 1px solid $text-color;
+  // border-bottom: 1px solid $text-color;
+  border-bottom: 1px solid $primary-color;
   a {
     color: inherit;
   }
@@ -126,6 +127,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }
@@ -169,6 +171,7 @@ td > code {
   padding-bottom: 0.1rem;
   font-size: 0.8em;
   background: $code-background-color;
+  color: $primary-color;
   border-radius: $border-radius;
 
   &:before,

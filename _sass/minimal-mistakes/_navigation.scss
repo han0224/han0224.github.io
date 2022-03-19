@@ -492,13 +492,11 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
+  font-size: $type-size-3;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
-  font-weight: bold;
-  text-transform: uppercase;
+  color: mix(#000, $primary-color, 10%);
   border-bottom: 1px solid $border-color;
 }
-
 /*
      Table of contents navigation
      ========================================================================== */
@@ -568,6 +566,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
