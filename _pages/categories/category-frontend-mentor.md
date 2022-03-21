@@ -1,11 +1,11 @@
 ---
-title: "JavaScript"
+title: "Frontend Mentor"
 layout: archive
-permalink: categories/js
+permalink: categories/fronendmentor
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.js %}
+{% assign posts = site.categories.fronendmentor %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
