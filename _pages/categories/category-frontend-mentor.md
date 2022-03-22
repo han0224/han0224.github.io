@@ -1,11 +1,11 @@
 ---
 title: "Frontend Mentor"
 layout: archive
-permalink: categories/fronendmentor
+permalink: categories/frontend-mentor
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.fronendmentor %}
+{% assign posts = site.categories['Frontend Mentor'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

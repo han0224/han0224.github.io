@@ -13,12 +13,15 @@ toc: true
 - media query
 
 ## 🔮 완성 이미지
-### main
+### main 페이지
 ![1](https://user-images.githubusercontent.com/70616579/159296978-d73ba8d5-81a7-4292-90ac-c6832e2e576b.png){: width="40%" height="40%"}
 ![3](https://user-images.githubusercontent.com/70616579/159298109-22f035cd-658a-4fa4-8024-d1475c635455.png){: width="40%" height="40%"}  
 - 숫자 버튼을 클릭할 시 해당 버튼은 회색   
 - 숫자 버튼 및 submit 버튼에 마우스를 올릴 경우 색 변화 및 이미지
-### Sumbit
+
+
+
+### Sumbit 페이지
 ![2](https://user-images.githubusercontent.com/70616579/159297010-6d330c17-8deb-4aa9-af8a-e36550dbe70f.png){: width="40%" height="40%"}   
 - main 페이지에서 선택한 숫자를 보여줌    
 
