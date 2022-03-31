@@ -119,12 +119,13 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   /* paragraph indents */
+  // bottom $indent-var -> 0.5em 
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0  0.5em;//$indent-var;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
