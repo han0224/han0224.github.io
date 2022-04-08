@@ -65,6 +65,9 @@ body {
       width: 100%;
       clear: both;
     }
+    th{
+      background-color: mix(#000, $primary-color,20%);
+    }
   }
 }
 
