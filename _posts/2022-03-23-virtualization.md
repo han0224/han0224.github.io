@@ -3,7 +3,7 @@ layout: single
 title: "가상화와 컴퓨팅 기술"
 categories:
   - Colud Computing
-tag: [cloud computing, virtualization, Hypervisor]
+tag: [virtualization, Hypervisor]
 toc: true
 ---
 ## 🎁 가상화란

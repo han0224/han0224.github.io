@@ -3,7 +3,7 @@ layout: single
 title: "클라우드 컴퓨팅 개요"
 categories:
   - Colud Computing
-tag: [cloud computing]
+tag: [Iaas, Paas, Saas]
 toc: true
 ---
 ## ☁️ 클라우드 컴퓨팅

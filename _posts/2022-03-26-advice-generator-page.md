@@ -3,7 +3,7 @@ layout: single
 title: "Advice generator app - frontend 과제"
 categories: 
 - Frontend Mentor
-tag: [JavaScript, css, html, fetch]
+tag: [JS, CSS, html, fetch]
 toc: true
 ---
 완성본😀 [Advice generator app](https://han0224.github.io/advice-generator-app/)
