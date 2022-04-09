@@ -3,7 +3,7 @@ layout: single
 title: "[프로그래머스] 오픈채팅방"
 categories:
   - Programmers
-tag: [Programmers, Coding Test, JavaScript]
+tag: [Coding Test, JS]
 toc: true
 ---
 

@@ -27,7 +27,7 @@
                 
                 {% for category in site.categories %}
                     {% if category[0] == "css" %}
-                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/css" class="">css ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -44,14 +44,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm" %}
-                        <li><a href="/categories/algorithm" class="">알고리즘 구현({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm" class="">Algorithm({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

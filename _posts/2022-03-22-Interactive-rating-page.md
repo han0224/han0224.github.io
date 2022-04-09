@@ -3,7 +3,7 @@ layout: single
 title: "Interactive rating page - frontend 과제"
 categories: 
 - Frontend Mentor
-tag: [JavaScript, css, html]
+tag: [JS, CSS, html]
 toc: true
 ---
 완성본😀 [interactive rating page](https://han0224.github.io/Interactive-rating-page/)
