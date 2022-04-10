@@ -27,3 +27,7 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# 이후에 다시 올릴 것
+_posts/2022-03-25-linearRegression.md
+_posts/2022-04-10-algorithm1.md
