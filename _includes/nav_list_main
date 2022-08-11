@@ -84,6 +84,13 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Git" %}
+                <li><a href="/categories/git" class="">Git({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
         </li>
     </ul>
 </nav>
