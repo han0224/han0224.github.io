@@ -90,6 +90,13 @@
                 <li><a href="/categories/git" class="">Git({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
+            </ul>  
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Wooteco" %}
+                <li><a href="/categories/wooteco" class="">우테코({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
             </ul>
         </li>
     </ul>
