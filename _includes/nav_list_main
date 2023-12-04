@@ -31,6 +31,14 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+            <span class="nav__sub-title">Library</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "React" %}
+                <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
             <span class="nav__sub-title">Project</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
@@ -98,20 +106,6 @@
                 {% endif %}
                 {% endfor %}
             </ul>  
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Wooteco" %}
-                <li><a href="/categories/wooteco" class="">우테코({{category[1].size}})</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Study" %}
-                <li><a href="/categories/study" class="">Study({{category[1].size}})</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
         </li>
     </ul>
 </nav>
