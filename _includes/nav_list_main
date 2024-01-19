@@ -48,7 +48,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "Colud Computing" %}
+                {% if category[0] == "Cloud Computing" %}
                 <li><a href="/categories/cloud-computing" class="">Colude Computing({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}

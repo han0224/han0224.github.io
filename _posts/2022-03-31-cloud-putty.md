@@ -2,7 +2,7 @@
 layout: single
 title: "[AWS EC2] Putty 사용"
 categories:
-  - Colud Computing
+  - Cloud Computing
 tag: [putty, ubuntu]
 toc: true
 ---

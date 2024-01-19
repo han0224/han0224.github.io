@@ -2,7 +2,7 @@
 layout: single
 title: "클라우드 제공 모델"
 categories:
-  - Colud Computing
+  - Cloud Computing
 tag: [Cloud Model]
 toc: true
 ---
